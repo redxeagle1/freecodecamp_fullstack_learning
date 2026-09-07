@@ -49,7 +49,6 @@ another one is
 
 - it's a ready-made template for your webpages. it includes the basic structure and essential elements every HTML document needs.
 
-
 ## boilerplate breakdown
 
 1. `<!DOCTYPE html>` It tells browsers which version of HTML you're using.

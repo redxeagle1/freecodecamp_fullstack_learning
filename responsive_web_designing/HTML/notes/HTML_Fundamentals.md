@@ -19,7 +19,7 @@
 
 1. the `<>` at the beginning is called the opening tag and it defines the start of the tag itself and it includes:
 
-* the element: this defines the shape of the element itself and its behavior, whether it's a [heading, button, image, etc.]
+* the element: this defines the shape of the element itself and its behavior, whether it's a (heading, button, image, etc.)
 * the attribute: this defines the state of the element and its general behavior, and it takes either a `number` or a `string` and here is a simple example:
 
 ```html

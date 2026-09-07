@@ -6,7 +6,7 @@ HTML5 has some elements that identify different content areas. These elements ma
 
 - The `<section>` element is used to define sections in a document, such as chapters, headers, footers, or any other sections of the document.***It is a semantic element that helps with SEO and accessibility.***
 
-- The `<footer>` element is used to define a footer for a document or section. A footer typically contains 
+- The `<footer>` element is used to define a footer for a document or section. A footer typically contains
   - information about the author of the document
   - copyright data
   - links to terms of use
