@@ -47,3 +47,33 @@
 
 > 1. not every tag needs a closing tag. for example, the `<img>` tag doesn't need to be closed unless you use a formatting tool like prettier which might do it like this at the end `</img>`, however this is not standard and doesn't do anything
 > 2. there is a type of attributes called boolean attributes. these are fixed words or you can consider them basic attributes that define the state of the element. examples include `disabled`, `checked`, and `required`. the names clearly indicate what they do, and keep in mind that if you don't write them, their default value is `false`
+
+## html entities
+
+* An HTML entity, or character reference, is a set of characters used to represent a reserved character in HTML.
+
+* For Example display the text `This is an <img/> element`
+     on the screen. If you use the code currently in the editor, it won't display the desired result.
+
+    ```html
+    <p>This is an <img /> element</p>
+    ```
+
+    **WHY**
+    > When the HTML parser sees the less-than (<) symbol followed by an HTML tag name, it interprets that as an HTML element.
+
+* To fix this issue, you can use `HTML entities`.
+
+    ```html
+    <p>This is an &lt;img /&gt; element</p>
+    <p>&lt;p&gt;learning is fun&lt;/p&gt;</p>
+    ```
+
+### HTML Entities Types
+
+1. `named character references`
+    Named references start with an ampersand sign (&) and end with a semicolon (;). By using a named character reference, the HTML parser will not confuse this with an actual HTML element.
+2. `decimal numeric reference`
+    This character reference starts with an ampersand sign and hash symbol (#), followed by one or more decimal digits, followed by a semicolon. like `&#60;`
+3. `hexadecimal numeric reference`
+    This character reference starts with an ampersand sign, hash symbol, and the letter x. Then it is followed by one or more ASCII hex digits and ends with a semicolon. like `&#x3C;`
